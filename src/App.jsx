@@ -45,7 +45,7 @@ const App = () => {
       alert("Select an employee to edit or use 'Add New Employee' to add a new one.");
     }
 
-    handleClear(); 
+    handleClear(); // Clear input fields after saving
   };
 
   const handleAddNewEmployee = () => {
@@ -63,7 +63,7 @@ const App = () => {
     setId(null);
     setFirstName("");
     setLastName("");
-    setAge("");git init
+    setAge("");
   };
 
   return (
